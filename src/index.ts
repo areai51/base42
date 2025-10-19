@@ -162,7 +162,7 @@ app.get('/', (c) => {
         </main>
 
         <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--muted-border-color); text-align: center;">
-          <p>&copy; 2024 Base42 SaaS Starter. Built with Hono, JSX, and Pico CSS.</p>
+          <p>&copy; 2025 Base42 SaaS Starter. Built with Hono, JSX, and Pico CSS.</p>
         </footer>
       </div>
 
@@ -546,7 +546,7 @@ app.get('/todo', (c) => {
         </main>
 
         <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--muted-border-color); text-align: center;">
-          <p>&copy; 2024 Base42 SaaS Starter. Built with Hono, JSX, and Pico CSS.</p>
+          <p>&copy; 2025 Base42 SaaS Starter. Built with Hono, JSX, and Pico CSS.</p>
         </footer>
       </div>
 

@@ -14,7 +14,7 @@ export function getAboutPageHTML() {
       <div class="grid">
         <div class="card">
           <h3>⚡ Hono</h3>
-          <p>Ultra-fast web framework for edge computing</p>
+          <p>zzUltra-fast web framework for edge computing</p>
           <small>Perfect for Cloudflare Workers</small>
         </div>
         <div class="card">

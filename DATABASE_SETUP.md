@@ -9,7 +9,7 @@ This document explains how to set up and use the database functionality in Base4
 Make sure your `.env` file contains the database URL:
 
 ```env
-DATABASE_URL=postgresql://neondb_owner:npg_g0FH5iuphYWQ@ep-autumn-frog-a82r85vo-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=
 ```
 
 ### 2. Execute Database Schema
