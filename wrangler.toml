@@ -1,0 +1,21 @@
+name = "base42"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "base42"
+
+[env.staging]
+name = "base42-saas-starter-staging"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "development"
+
+# Bindings for secrets (set via `wrangler secret put`)
+# [vars]
+# DATABASE_URL = ""
+# GOOGLE_CLIENT_ID = ""
+# GOOGLE_CLIENT_SECRET = ""
+# SESSION_SECRET = ""
