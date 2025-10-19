@@ -1,0 +1,37 @@
+{
+  "name": "base42-saas-starter",
+  "version": "1.0.0",
+  "description": "Token-efficient SaaS starter kit with Hono, JSX, Pico CSS, and Basecoat components",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "setup-db": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.0",
+    "wrangler": "^3.31.0",
+    "esbuild": "^0.19.0"
+  },
+  "keywords": [
+    "saas",
+    "starter-kit",
+    "hono",
+    "cloudflare-workers",
+    "jsx",
+    "pico-css",
+    "basecoat",
+    "token-efficient"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
